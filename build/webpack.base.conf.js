@@ -78,7 +78,23 @@ module.exports = {
       {
         test: /\.scss$/,
         loader: ["style", "css", "sass"]
-      }
+      },
+      {
+        test: require.resolve('numbro'),
+        loader: 'expose-loader?numbro'
+      },
+      {
+        test: require.resolve('moment'),
+        loader: 'expose-loader?moment'
+      },
+      {
+        test: require.resolve('pikaday'),
+        loader: 'expose-loader?Pikaday'
+      },
+      // {
+      //   test: require.resolve('zeroclipboard'),
+      //   loader: 'expose-loader?ZeroClipboard'
+      // }      
     ]
   },
   node: {
