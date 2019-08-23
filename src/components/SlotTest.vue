@@ -37,8 +37,6 @@
 
 
 <script>
-import SlotChild from './SlotChild'
-import MoreChild from './moreChild'
 export default {	
 	data() {
 		return {
@@ -56,11 +54,6 @@ export default {
 			attrChild:''
 		}
 	},
-  components: {
-		SlotChild,
-		MoreChild
-	},
-
 	methods: {
 		selectattr(data) {
 			this.attrChild = data

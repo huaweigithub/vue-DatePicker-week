@@ -6,7 +6,7 @@ import router from './router'
 import store from './store'
 import 'iview/dist/styles/iview.css'
 import 'handsontable/dist/handsontable.full.css';
-import './components/global'
+import './global/global'
 
 Vue.config.productionTip = false
 
