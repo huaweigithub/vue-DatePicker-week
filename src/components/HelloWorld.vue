@@ -1,11 +1,5 @@
 <template>
   <div class="hello">
-    <!-- <h1>{{ msg }}</h1>
-    <div>
-      <Button class="big-btn">Default</Button>
-      <Button type="primary">Primary</Button>
-      <hr>
-    </div>-->
     <div>
       <h3>自定义组件-周期选择器</h3>
       <div class="week-main">
